@@ -1,0 +1,25 @@
+{
+  "name": "ochibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.0",
+    "dockerode": "^3.2.1",
+    "event-stream": "^4.0.1",
+    "into-stream": "^6.0.0",
+    "opusscript": "0.0.7",
+    "tee-stream": "0.0.1",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {
+    "dump-stream": "0.0.9"
+  }
+}
