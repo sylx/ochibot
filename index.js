@@ -1,6 +1,7 @@
+require('dotenv').config();
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "NzI3MjI4MTk0MDM3NTYzNTEy.XvozTw.QifvyS5HxlmbvIEqKg3uw81n_hg";
+const token = process.env.TOKEN;
 const path = require("path");
 const fs = require("fs");
 const jtalk = require("./jtalk");
